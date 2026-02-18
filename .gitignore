@@ -1,0 +1,15 @@
+*.sql
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.wal
+*.shm
+
+*.DS_Store
+Thumbs.db
+
+*Pizzeria Database Project.md
+*.ods
+*.png
+*.txt
