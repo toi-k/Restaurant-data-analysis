@@ -6,8 +6,10 @@
 *.wal
 *.shm
 *.DS_Store
-*Pizzeria Database Project.md
-*.ods
-*.png
+Thumbs.db
+Pizzeria Database Project.md
 *.txt
 *.db
+*.vscode/
+
+*.swp
