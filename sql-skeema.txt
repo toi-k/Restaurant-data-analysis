@@ -1,0 +1,82 @@
+Customers
+-
+id INTEGER PK
+firstname TEXT
+lastname TEXT
+
+Address
+-
+id INTEGER PK
+customer_id INTEGER FK >- Customers.id
+delivery_address1 TEXT
+delivery_address2 TEXT
+delivery_city TEXT
+delivery_zipcode TEXT
+
+Orders
+-
+id INTEGER PK
+created_at DATETIME
+delivery TEXT
+customer_id INTEGER FK >- Customers.id
+address_id INTEGER FK >- Address.id
+
+OrderItems
+-
+id INTEGER PK
+item_id INTEGER FK >- Items.id
+order_id INTEGER FK >- Orders.id
+quantity INTEGER
+
+Items
+-
+id INTEGER PK
+sku TEXT
+item_name TEXT
+item_category TEXT
+item_size TEXT
+item_price REAL
+
+Recipes
+-
+id INTEGER PK
+item_id INTEGER FK >- Items.id
+ing_id INTEGER FK >- Ingredients.id
+quantity REAL
+
+Ingredients
+-
+id INTEGER PK
+name TEXT
+weight REAL
+measure TEXT
+price REAL
+
+Inventory
+-
+id INTEGER PK
+item_id INTEGER FK >- Items.id
+quantity REAL
+
+Staff
+-
+id TEXT PK
+first_name TEXT
+last_name TEXT
+position TEXT
+hourly_rate REAL
+
+Shifts
+-
+id TEXT PK
+day_of_week TEXT
+start_time DATETIME
+end_time DATETIME
+
+Rota
+-
+id INTEGER PK
+rota_id TEXT
+date DATETIME FK >- Orders.created_at
+shift_id TEXT FK >- Shifts.id
+staff_id TEXT FK >- Staff.id
