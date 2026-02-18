@@ -5,11 +5,9 @@
 *.sqlite-journal
 *.wal
 *.shm
-
 *.DS_Store
-Thumbs.db
-
 *Pizzeria Database Project.md
 *.ods
 *.png
 *.txt
+*.db
