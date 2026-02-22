@@ -134,10 +134,11 @@ Key insights from the KPI analysis include:
 Chart created with ChatGPT
 
 ## Product analysis
-The second, more detailed part of the analysis was to give management a pictur eof which products drive the business' revenue.
+The second, more detailed part of the analysis was to give management a picture of which products drive the business' revenue.
 
 ```
 -- Contribution of each product category to total revenue
+-- Query logic: calculate the grouped item-categories' order sums and divide it with the total order revenues
 
 SELECT 
     I.item_category,
