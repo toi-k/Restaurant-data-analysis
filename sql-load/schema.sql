@@ -1,4 +1,4 @@
--- Enable foreign key enforcement
+-- Enable foreign-key enforcement
 PRAGMA foreign_keys = ON;
 
 -- Customers table
