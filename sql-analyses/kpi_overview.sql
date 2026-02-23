@@ -35,7 +35,7 @@ JOIN Items i ON i.id = oi.item_id
 GROUP BY date
 ORDER BY date;
 
--- Delivery vs. pickup %
+-- Delivery vs. pickup-%
 SELECT 
     delivery,
     COUNT(*) AS order_count,

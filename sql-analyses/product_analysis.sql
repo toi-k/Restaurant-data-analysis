@@ -1,4 +1,4 @@
--- Revenue by product
+-- Revenue by product 
 
 SELECT 
     I.item_name, 
