@@ -173,7 +173,7 @@ Key insights from product analysis include
 
 ### Insights
 
-Based on the KPI and product analyses, the following conclusions and recommendations are made to help optimize business operations and growth:
+Based on the KPI and product analyses, the following conclusions and recommendations are made to help optimize business operations and promote growth:
 
 1. Delivery orders being very important, consider giving out incentives to delivery customers and investing in tracking delivery performance metrics such as average delivery time and customer satisfaction.
 2. With larger items being more important, promote larger sizes and combos for increased revenue.
